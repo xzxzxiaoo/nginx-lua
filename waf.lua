@@ -14,7 +14,9 @@ local CCcount_2 = 0
 local CCseconds_2 = 0
 local blackseconds_2 = 0
 local whitelist=io.input("/home/nginx/conf/lua/conf/white.conf")
+---Unlimited
 local largeinterfacelist=io.input("/home/nginx/conf/lua/conf/large_interference.conf")
+---Special Circumstances
 local restrictinterfacelist=io.input("/home/nginx/conf/lua/conf/restrict_interference.conf")
 
 function getClientIp()
