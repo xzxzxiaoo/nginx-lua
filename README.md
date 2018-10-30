@@ -16,4 +16,5 @@ waf.lua
 规则文件
 
 2、使用说明
+===
 配置到nginx即可使用，需要搭建redis，NGINX需要支持lua脚本库
